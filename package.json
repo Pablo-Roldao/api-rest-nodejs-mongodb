@@ -1,0 +1,19 @@
+{
+  "name": "api-node-mongo",
+  "version": "1.0.0",
+  "description": "API RESTful com Node.js e MongoDB - CRUD com Node, Express e Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "keywords": [],
+  "author": "Pablo Roldão",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20"
+  }
+}
